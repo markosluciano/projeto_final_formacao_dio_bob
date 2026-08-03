@@ -4,31 +4,571 @@
       "id": 1,
       "nome": "Formação Python Developer",
       "nivel": "Básico ao Avançado",
-      "tecnologias": ["Python", "Flask", "Django", "SQL"]
+      "duracao_horas": 64,
+      "tecnologias": ["Python", "Flask", "Django", "SQL"],
+      "conteudo": [
+        "Fundamentos de Python",
+        "Orientação a Objetos com Python",
+        "Consumo de APIs REST",
+        "Desenvolvimento Web com Flask",
+        "Banco de Dados com SQLAlchemy"
+      ],
+      "projetos": [
+        "Sistema de cadastro de usuários",
+        "API RESTful com Flask",
+        "Web scraping com BeautifulSoup"
+      ]
     },
     {
       "id": 2,
       "nome": "Formação JavaScript Developer",
       "nivel": "Básico ao Avançado",
-      "tecnologias": ["JavaScript", "TypeScript", "Node.js", "React"]
+      "duracao_horas": 72,
+      "tecnologias": ["JavaScript", "TypeScript", "Node.js", "React"],
+      "conteudo": [
+        "Lógica de Programação com JS",
+        "DOM e eventos no navegador",
+        "ES6+ e Promises",
+        "TypeScript do zero",
+        "React com Hooks"
+      ],
+      "projetos": [
+        "To-do list com React",
+        "Dashboard financeiro",
+        "API com Node.js e Express"
+      ]
     },
     {
       "id": 3,
       "nome": "Formação Java Developer",
       "nivel": "Básico ao Avançado",
-      "tecnologias": ["Java", "Spring Boot", "Maven", "Hibernate"]
+      "duracao_horas": 80,
+      "tecnologias": ["Java", "Spring Boot", "Maven", "Hibernate"],
+      "conteudo": [
+        "Fundamentos de Java",
+        "POO com Java",
+        "Spring Boot na prática",
+        "JPA e Hibernate",
+        "Testes com JUnit"
+      ],
+      "projetos": [
+        "CRUD com Spring Boot e MySQL",
+        "Sistema de gerenciamento de estoque",
+        "API de autenticação com JWT"
+      ]
     },
     {
       "id": 4,
       "nome": "Formação Machine Learning Specialist",
       "nivel": "Intermediário ao Avançado",
-      "tecnologias": ["Python", "TensorFlow", "Scikit-learn", "Pandas"]
+      "duracao_horas": 96,
+      "tecnologias": ["Python", "TensorFlow", "Scikit-learn", "Pandas"],
+      "conteudo": [
+        "Estatística para Data Science",
+        "Manipulação de dados com Pandas",
+        "Algoritmos de ML supervisionado",
+        "Redes Neurais com TensorFlow",
+        "Deploy de modelos de ML"
+      ],
+      "projetos": [
+        "Classificador de imagens",
+        "Previsão de preços de imóveis",
+        "Sistema de recomendação"
+      ]
     },
     {
       "id": 5,
       "nome": "Formação Cloud AWS",
       "nivel": "Básico ao Avançado",
-      "tecnologias": ["AWS", "EC2", "S3", "Lambda", "RDS"]
+      "duracao_horas": 60,
+      "tecnologias": ["AWS", "EC2", "S3", "Lambda", "RDS"],
+      "conteudo": [
+        "Fundamentos de Cloud Computing",
+        "Serviços core da AWS",
+        "Infraestrutura como código com CloudFormation",
+        "Segurança na AWS com IAM",
+        "Serverless com Lambda"
+      ],
+      "projetos": [
+        "Deploy de aplicação na EC2",
+        "Pipeline de dados com S3 e Lambda",
+        "Banco de dados gerenciado com RDS"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Formação Angular Developer",
+      "nivel": "Intermediário",
+      "duracao_horas": 56,
+      "tecnologias": ["Angular", "TypeScript", "RxJS", "Angular Material"],
+      "conteudo": [
+        "Arquitetura Angular",
+        "Components e Modules",
+        "Programação reativa com RxJS",
+        "Formulários reativos",
+        "Comunicação com APIs REST"
+      ],
+      "projetos": [
+        "E-commerce front-end com Angular",
+        "Sistema de gestão de tarefas",
+        "Dashboard de métricas em tempo real"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Formação .NET Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 78,
+      "tecnologias": ["C#", ".NET", "ASP.NET Core", "Entity Framework"],
+      "conteudo": [
+        "Fundamentos de C#",
+        "POO com C#",
+        "ASP.NET Core MVC",
+        "Entity Framework Core",
+        "Microsserviços com .NET"
+      ],
+      "projetos": [
+        "API REST com ASP.NET Core",
+        "Sistema de autenticação OAuth",
+        "Aplicação de microsserviços"
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Formação SQL Database Specialist",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 52,
+      "tecnologias": ["SQL", "MySQL", "PostgreSQL", "SQL Server"],
+      "conteudo": [
+        "Fundamentos de banco de dados relacional",
+        "DDL e DML na prática",
+        "Consultas avançadas com JOINs",
+        "Stored Procedures e Triggers",
+        "Otimização de queries"
+      ],
+      "projetos": [
+        "Modelagem de banco e-commerce",
+        "Relatórios gerenciais com SQL",
+        "ETL com SQL e Python"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Formação React Developer",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 68,
+      "tecnologias": ["React", "Redux", "Next.js", "Styled Components"],
+      "conteudo": [
+        "React fundamentos e JSX",
+        "Gerenciamento de estado com Redux",
+        "SSR e SSG com Next.js",
+        "Testes com React Testing Library",
+        "Performance em aplicações React"
+      ],
+      "projetos": [
+        "Blog com Next.js e Markdown",
+        "App de clima com API pública",
+        "Clone do Twitter com React"
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Formação DevOps e CI/CD",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 70,
+      "tecnologias": ["Docker", "Kubernetes", "GitHub Actions", "Jenkins"],
+      "conteudo": [
+        "Cultura DevOps",
+        "Containers com Docker",
+        "Orquestração com Kubernetes",
+        "Pipelines CI/CD com GitHub Actions",
+        "Monitoramento com Prometheus e Grafana"
+      ],
+      "projetos": [
+        "Pipeline CI/CD para aplicação Node.js",
+        "Cluster Kubernetes local com Minikube",
+        "Infraestrutura monitorada com Grafana"
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Formação Flutter Mobile Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 74,
+      "tecnologias": ["Flutter", "Dart", "Firebase", "GetX"],
+      "conteudo": [
+        "Fundamentos de Dart",
+        "Widgets no Flutter",
+        "Navegação e rotas",
+        "Integração com Firebase",
+        "Gerenciamento de estado com GetX"
+      ],
+      "projetos": [
+        "App de lista de compras",
+        "Chat em tempo real com Firebase",
+        "App de delivery mobile"
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Formação Data Science com Python",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 88,
+      "tecnologias": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "conteudo": [
+        "Introdução à Ciência de Dados",
+        "Análise exploratória de dados",
+        "Visualização de dados",
+        "Feature Engineering",
+        "Modelos preditivos"
+      ],
+      "projetos": [
+        "Análise de dados do IBGE",
+        "Dashboard de vendas interativo",
+        "Previsão de churn de clientes"
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Formação Cybersecurity Specialist",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 82,
+      "tecnologias": ["Kali Linux", "Wireshark", "Metasploit", "OWASP"],
+      "conteudo": [
+        "Fundamentos de segurança da informação",
+        "Ethical Hacking",
+        "Análise de vulnerabilidades",
+        "Segurança em aplicações web",
+        "Resposta a incidentes"
+      ],
+      "projetos": [
+        "Pentest em ambiente controlado",
+        "Relatório de análise de vulnerabilidades",
+        "Implementação de políticas de segurança"
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Formação Node.js Backend Developer",
+      "nivel": "Intermediário",
+      "duracao_horas": 62,
+      "tecnologias": ["Node.js", "Express", "MongoDB", "GraphQL"],
+      "conteudo": [
+        "Node.js e o event loop",
+        "APIs REST com Express",
+        "Banco de dados NoSQL com MongoDB",
+        "Autenticação com JWT",
+        "GraphQL na prática"
+      ],
+      "projetos": [
+        "API de blog com MongoDB",
+        "Sistema de autenticação completo",
+        "API GraphQL com Apollo Server"
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Formação Azure Cloud Fundamentals",
+      "nivel": "Básico ao Intermediário",
+      "duracao_horas": 50,
+      "tecnologias": ["Azure", "Azure DevOps", "ARM Templates", "Azure Functions"],
+      "conteudo": [
+        "Conceitos de cloud com Azure",
+        "Recursos e serviços principais",
+        "Azure DevOps na prática",
+        "Funções serverless com Azure Functions",
+        "Segurança e conformidade na Azure"
+      ],
+      "projetos": [
+        "Deploy de app web no Azure App Service",
+        "Automação com Azure Functions",
+        "Pipeline DevOps com Azure DevOps"
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Formação iOS Swift Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 76,
+      "tecnologias": ["Swift", "SwiftUI", "Xcode", "CoreData"],
+      "conteudo": [
+        "Fundamentos de Swift",
+        "Interfaces com SwiftUI",
+        "Persistência com CoreData",
+        "Integração com APIs REST",
+        "Publicação na App Store"
+      ],
+      "projetos": [
+        "App de finanças pessoais",
+        "Clone do Instagram",
+        "App de notícias com RSS"
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Formação Google Cloud Platform",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 58,
+      "tecnologias": ["GCP", "BigQuery", "Cloud Run", "Pub/Sub"],
+      "conteudo": [
+        "Introdução ao Google Cloud",
+        "Computação e armazenamento no GCP",
+        "Big Data com BigQuery",
+        "Containers com Cloud Run",
+        "Mensageria com Pub/Sub"
+      ],
+      "projetos": [
+        "Pipeline de dados com BigQuery",
+        "Aplicação serverless com Cloud Run",
+        "Arquitetura event-driven com Pub/Sub"
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Formação Blockchain Developer",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 66,
+      "tecnologias": ["Solidity", "Ethereum", "Web3.js", "Hardhat"],
+      "conteudo": [
+        "Fundamentos de Blockchain",
+        "Smart Contracts com Solidity",
+        "Desenvolvimento com Hardhat",
+        "Integração Web3.js",
+        "DeFi e NFTs"
+      ],
+      "projetos": [
+        "Token ERC-20 do zero",
+        "NFT marketplace simples",
+        "Contrato de votação descentralizada"
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Formação Kotlin Android Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 72,
+      "tecnologias": ["Kotlin", "Android SDK", "Jetpack Compose", "Room"],
+      "conteudo": [
+        "Fundamentos de Kotlin",
+        "Desenvolvimento Android com Kotlin",
+        "UI moderna com Jetpack Compose",
+        "Persistência com Room Database",
+        "Consumo de APIs com Retrofit"
+      ],
+      "projetos": [
+        "App de receitas com API",
+        "Aplicativo de controle financeiro",
+        "Clone do WhatsApp simplificado"
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Formação PHP Laravel Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 68,
+      "tecnologias": ["PHP", "Laravel", "MySQL", "Blade"],
+      "conteudo": [
+        "Fundamentos de PHP moderno",
+        "Framework Laravel",
+        "Eloquent ORM",
+        "Autenticação e autorização",
+        "Testes no Laravel"
+      ],
+      "projetos": [
+        "Sistema de blog com Laravel",
+        "API RESTful com autenticação",
+        "Painel administrativo completo"
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Formação Go Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 60,
+      "tecnologias": ["Go", "Gin", "GORM", "Docker"],
+      "conteudo": [
+        "Fundamentos de Go",
+        "Concorrência com goroutines e channels",
+        "APIs REST com Gin",
+        "ORM com GORM",
+        "Deploy com Docker"
+      ],
+      "projetos": [
+        "Microsserviço de autenticação em Go",
+        "CLI tool de produtividade",
+        "API de alta performance com Go"
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Formação Scrum Master e Agile",
+      "nivel": "Básico ao Intermediário",
+      "duracao_horas": 40,
+      "tecnologias": ["Scrum", "Kanban", "Jira", "Confluence"],
+      "conteudo": [
+        "Fundamentos de Agile",
+        "Framework Scrum na prática",
+        "Papéis e responsabilidades",
+        "Gerenciamento com Jira",
+        "Métricas e melhoria contínua"
+      ],
+      "projetos": [
+        "Simulação de Sprint completa",
+        "Configuração de board Kanban no Jira",
+        "Retrospectiva e plano de melhoria"
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Formação UI/UX Design",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 54,
+      "tecnologias": ["Figma", "Adobe XD", "Prototyping", "Design System"],
+      "conteudo": [
+        "Fundamentos de UX",
+        "Pesquisa com usuários",
+        "Wireframes e protótipos",
+        "Design System com Figma",
+        "Testes de usabilidade"
+      ],
+      "projetos": [
+        "Redesign de aplicativo mobile",
+        "Design System completo",
+        "Protótipo interativo de e-commerce"
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Formação AI Generativa com Azure OpenAI",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 58,
+      "tecnologias": ["Azure OpenAI", "LangChain", "Python", "Prompt Engineering"],
+      "conteudo": [
+        "Introdução à IA Generativa",
+        "Modelos GPT e suas aplicações",
+        "Prompt Engineering avançado",
+        "LangChain para aplicações LLM",
+        "Deploy de soluções com Azure OpenAI"
+      ],
+      "projetos": [
+        "Chatbot inteligente com GPT",
+        "Gerador de conteúdo automatizado",
+        "Assistente de código com IA"
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Formação Ruby on Rails Developer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 62,
+      "tecnologias": ["Ruby", "Rails", "PostgreSQL", "Hotwire"],
+      "conteudo": [
+        "Fundamentos de Ruby",
+        "Convention over Configuration com Rails",
+        "ActiveRecord e migrations",
+        "Front-end reativo com Hotwire",
+        "Testes com RSpec"
+      ],
+      "projetos": [
+        "Blog completo com Rails",
+        "Plataforma de e-commerce",
+        "API JSON com Rails API mode"
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Formação Power BI e Análise de Dados",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 46,
+      "tecnologias": ["Power BI", "DAX", "Power Query", "Excel"],
+      "conteudo": [
+        "Introdução ao Power BI Desktop",
+        "Modelagem de dados",
+        "Linguagem DAX",
+        "Visualizações avançadas",
+        "Publicação e compartilhamento"
+      ],
+      "projetos": [
+        "Dashboard de vendas regionais",
+        "Relatório financeiro executivo",
+        "Análise de RH com Power BI"
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Formação Rust Developer",
+      "nivel": "Intermediário ao Avançado",
+      "duracao_horas": 70,
+      "tecnologias": ["Rust", "Cargo", "Actix-web", "WebAssembly"],
+      "conteudo": [
+        "Fundamentos de Rust e ownership",
+        "Structs, enums e pattern matching",
+        "Concorrência segura",
+        "Web APIs com Actix-web",
+        "Compilando para WebAssembly"
+      ],
+      "projetos": [
+        "CLI de gerenciamento de arquivos",
+        "Servidor HTTP de alta performance",
+        "Módulo WebAssembly para o navegador"
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Formação QA Engineer",
+      "nivel": "Básico ao Avançado",
+      "duracao_horas": 56,
+      "tecnologias": ["Selenium", "Cypress", "Postman", "JMeter"],
+      "conteudo": [
+        "Fundamentos de qualidade de software",
+        "Testes manuais e casos de teste",
+        "Automação web com Cypress",
+        "Testes de API com Postman",
+        "Testes de performance com JMeter"
+      ],
+      "projetos": [
+        "Suite de testes automatizados E2E",
+        "Relatório de testes de API",
+        "Plano de teste para aplicação web"
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Formação Linux Fundamentals",
+      "nivel": "Básico ao Intermediário",
+      "duracao_horas": 44,
+      "tecnologias": ["Linux", "Bash", "Shell Script", "SSH"],
+      "conteudo": [
+        "Introdução ao sistema operacional Linux",
+        "Comandos essenciais do terminal",
+        "Gerenciamento de usuários e permissões",
+        "Shell Script para automação",
+        "Administração básica de servidores"
+      ],
+      "projetos": [
+        "Script de backup automatizado",
+        "Configuração de servidor web no Linux",
+        "Automação de tarefas com Cron"
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Formação Arquitetura de Software",
+      "nivel": "Avançado",
+      "duracao_horas": 90,
+      "tecnologias": ["Domain-Driven Design", "Microsserviços", "CQRS", "Event Sourcing"],
+      "conteudo": [
+        "Princípios SOLID e Clean Architecture",
+        "Domain-Driven Design na prática",
+        "Arquitetura de microsserviços",
+        "Padrões CQRS e Event Sourcing",
+        "Observabilidade e resiliência"
+      ],
+      "projetos": [
+        "Sistema modular com DDD",
+        "Plataforma de microsserviços com mensageria",
+        "Arquitetura event-driven completa"
+      ]
     }
   ]
 }
