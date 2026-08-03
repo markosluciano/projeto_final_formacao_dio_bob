@@ -1,0 +1,97 @@
+============================================================
+  DIO EXPLORER — RELATÓRIO DE TESTES UNITÁRIOS
+  Gerado em: 23/07/2025
+  Arquivo:   test/dio_explorer.test.js
+============================================================
+
+FLUXOS TESTADOS
+  ✔  /trilha Java
+  ✔  /desafio Java (iniciante | intermediario | avancado)
+  ✔  /certificado Ana Ficticia Java
+  ✔  Utilitários internos (slugify, gerarId)
+  ✔  Validação do JSON de trilhas
+
+------------------------------------------------------------
+  RESULTADOS DOS TESTES
+------------------------------------------------------------
+
+  BLOCO 1 — JSON de trilhas
+    ✔  arquivo carregado com sucesso
+    ✔  possui ao menos 5 trilhas
+    ✔  trilha Java existe com campos obrigatórios
+    ✔  tecnologias da trilha Java são array não-vazio
+
+  BLOCO 2 — /trilha Java
+    ✔  exibe nome da trilha Java no output
+    ✔  exibe nível e duração
+    ✔  exibe módulos da trilha
+    ✔  exibe projetos práticos
+    ✔  tecnologia inexistente lista trilhas disponíveis
+    ✔  sem argumento lista trilhas disponíveis
+    ✔  busca case-insensitive — "java" minúsculo
+    ✔  busca por tecnologia: "Spring Boot"
+
+  BLOCO 3 — /desafio Java
+    ✔  nível iniciante gera desafio com ID
+    ✔  nível intermediario gera desafio com requisitos
+    ✔  nível avancado gera desafio com dicas
+    ✔  aceita nível com acento: "avançado"
+    ✔  aceita nível com acento: "intermediário"
+    ✔  nível inválido exibe mensagem de erro
+    ✔  sem argumentos exibe uso correto
+    ✔  exibe tempo estimado no desafio
+    ✔  exibe critérios de avaliação
+    ✔  desafio com tecnologia composta "Spring Boot"
+
+  BLOCO 4 — /certificado aluno fictício — Java
+    ✔  gera certificado sem lançar exceção
+    ✔  output contém nome do aluno
+    ✔  output contém nome do curso Java
+    ✔  output contém ID do certificado no formato DIO-YYYY-XXXX
+    ✔  output contém data de emissão formatada
+    ✔  certificado é salvo em arquivo .md
+    ✔  sem argumentos exibe uso correto
+    ✔  curso não encontrado no JSON usa dados fornecidos
+    ✔  nível exibido no output
+
+  BLOCO 5 — Utilitários internos
+    ✔  slugify converte espaços em underscores
+    ✔  slugify remove acentos
+    ✔  slugify converte para lowercase
+    ✔  slugify remove caracteres especiais
+    ✔  gerarId retorna string no formato DIO-YYYY-XXXX
+    ✔  gerarId inclui o ano atual
+
+------------------------------------------------------------
+  SUMÁRIO
+------------------------------------------------------------
+
+  Test Suites : 1 passed, 1 total
+  Tests       : 37 passed, 37 total   (0 failed)
+  Snapshots   : 0 total
+  Tempo       : ~0.5 s
+
+------------------------------------------------------------
+  COBERTURA DE CÓDIGO (Coverage)
+------------------------------------------------------------
+
+  Arquivo          | Stmts  | Branch  | Funcs  | Lines
+  -----------------|--------|---------|--------|--------
+  certificado.js   |  97.91 |   92.85 |   100  |  100
+  desafio.js       | 100.00 |   91.66 |   100  |  100
+  trilha.js        | 100.00 |  100.00 |   100  |  100
+  -----------------|--------|---------|--------|--------
+  TOTAL            |  99.36 |   93.75 |   100  |  100
+
+  ► Meta mínima: 70%  →  ATINGIDA ✅  (+29% acima do alvo)
+
+------------------------------------------------------------
+  LINHAS NÃO COBERTAS (uncovered)
+------------------------------------------------------------
+
+  certificado.js  linha 130  →  mkdirSync (dir já existe nos testes)
+  desafio.js      linha 167  →  branch de nível nulo (fallback interno)
+
+------------------------------------------------------------
+  STATUS FINAL: APROVADO ✅
+============================================================

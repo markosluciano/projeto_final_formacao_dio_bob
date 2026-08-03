@@ -1,0 +1,30 @@
+{
+  "name": "dio-explorer-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server HTTP para o DIO Explorer — expõe trilhas, desafios e certificados via API",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "dio-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "dio",
+    "mcp",
+    "http",
+    "sse",
+    "trilhas",
+    "certificado"
+  ],
+  "author": "markosluciano",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  }
+}

@@ -10,10 +10,42 @@
     "start": "node src/index.js",
     "trilha": "node src/index.js /trilha",
     "desafio": "node src/index.js /desafio",
-    "certificado": "node src/index.js /certificado"
+    "certificado": "node src/index.js /certificado",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage --coverageReporters=text --coverageReporters=json-summary",
+    "test:verbose": "node --experimental-vm-modules node_modules/.bin/jest --coverage --verbose --coverageReporters=text"
   },
   "type": "module",
-  "keywords": ["dio", "cli", "trilhas", "desafio", "certificado"],
+  "keywords": [
+    "dio",
+    "cli",
+    "trilhas",
+    "desafio",
+    "certificado"
+  ],
   "author": "markosluciano",
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node",
+    "extensionsToTreatAsEsm": [],
+    "transform": {},
+    "testMatch": [
+      "**/test/**/*.test.js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 70,
+        "functions": 70,
+        "branches": 60,
+        "statements": 70
+      }
+    }
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
 }

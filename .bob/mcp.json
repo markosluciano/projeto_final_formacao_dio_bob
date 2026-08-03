@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dio-explorer": {
+      "command": "node",
+      "args": [
+        "c:\\Users\\DS - Marcos\\Documents\\projeto_final_formacao_dio_bob\\dio_explorer\\mcp\\src\\index.js"
+      ],
+      "env": {
+        "PORT": "3131",
+        "DIO_API_KEY": ""
+      }
+    }
+  }
+}

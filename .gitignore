@@ -1,0 +1,22 @@
+﻿# Dependencias
+node_modules/
+**/node_modules/
+
+# Cobertura de testes
+coverage/
+**/coverage/
+
+# Certificados gerados (conteudo pessoal, nao versionado)
+dio_explorer/docs/certificados-emitidos/*.md
+
+# Variaveis de ambiente
+.env
+.env.*
+
+# Arquivos temporarios
+*.tmp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
