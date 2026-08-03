@@ -1,0 +1,19 @@
+{
+  "name": "dio-explorer",
+  "version": "1.0.0",
+  "description": "CLI com slash commands para explorar trilhas da DIO",
+  "main": "src/index.js",
+  "bin": {
+    "dio": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "trilha": "node src/index.js /trilha",
+    "desafio": "node src/index.js /desafio",
+    "certificado": "node src/index.js /certificado"
+  },
+  "type": "module",
+  "keywords": ["dio", "cli", "trilhas", "desafio", "certificado"],
+  "author": "markosluciano",
+  "license": "MIT"
+}
